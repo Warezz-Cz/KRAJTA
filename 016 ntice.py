@@ -8,8 +8,8 @@ Created on Wed Jan 11 08:17:39 2012
 """
 N-tice (tuple)
 - vytvářejí se pomocí ()
-- jsou neměnné, obdobně jako řetězce
-- nemají žádné metody (jako např. pop(),...)
+- jsou neměnný, jak síla starejch vín obdobně jako řetězce
+- nemají žádné metody (jako např. pop(),rock()...)
 - používají se pro uložení většího počtu hodnot než 1
 """
 
