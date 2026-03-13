@@ -2,7 +2,7 @@
 """
 Created on Mon Jan 09 07:40:31 2012
 
-@author: Radek
+@author: Twenty
 """
 
 # Defaultní parametry (předdefinované, implicitní)
@@ -52,4 +52,3 @@ def PokusSParametry(x,y=1,*z):
    (defaultní) parametry nastavené na 0. Spočítá jejich
    součet a vrátí jej jako svůj výsledek (return).    
 """
-

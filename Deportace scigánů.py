@@ -36,9 +36,3 @@ telefon=4
 """ for i in DB:
     DB[i] += [random.randint(45,69)]
     print(DB[i]) """
-
-
-
-
-
-

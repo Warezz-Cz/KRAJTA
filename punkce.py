@@ -74,13 +74,46 @@ def Vrat_Seznam(pocet, od, do):
 #    text tak, že mezi jeho písmena vloží náhodná písmena navíc.
     
 def ZasifrujText(txt):
-    abeceda ="QWERTZUIOPASDFGHJKLYXCVBNMqwertzuiopasdfghjklyxcvbnm1234567890"
+    abeceda ="QWERTZUIOPASDFGHJKLYXCVBNMqwertzuiopasdfghjklyxcvbnm1234567890._-;~?+/*()"
     text=""
     for i in txt:
-        cislo=random.randint(0,57)
+        cislo=random.randint(0,68)
         pismeno=i+abeceda[cislo]
         text+=pismeno
     print(text)
     
-zadani=input()
-ZasifrujText(zadani)
+# zadani=input("Zadejte slovo pro šifrování: ")
+# ZasifrujText(zadani)
+    
+# 7) Funkce PocetSamohlasek(txt), která vrátí počet samohlásek 
+#    ze vstupního parametru txt.
+    
+
+def PocetSamohlasek(txt):
+    samohlasky ="aeěiouáéíóúůyý"
+    pocet=0
+    for i in txt:
+        if i in samohlasky:
+            pocet+=1
+    print(pocet)
+
+# zadani=input("Zadejte slovo:")
+# PocetSamohlasek(zadani)
+    
+# 8) Funkce Presmycka(txt), která náhodně zamíchá znaky z původního
+#    textu a vrátí tuto přesmyčku.  
+
+def Presmycka(txt):
+    lenght = len(txt)
+    novy = [0] * lenght
+    for i in txt:
+        while(1):
+            position = random.randint(0,lenght-1)
+            if novy[position] == 0:
+                novy[position] = i
+                break
+    slovo = "".join(novy)
+    print(slovo)
+
+# y = input()
+# Presmycka(y)
