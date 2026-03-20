@@ -50,5 +50,5 @@ def PokusSParametry(x,y=1,*z):
    sebe.
 2) Napište fci Soucet, která bude mít tři implicitní
    (defaultní) parametry nastavené na 0. Spočítá jejich
-   součet a vrátí jej jako svůj výsledek (return).    
+   součet a vrátí jej jako svůj výsledek (return).
 """
