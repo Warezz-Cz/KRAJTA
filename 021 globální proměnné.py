@@ -41,7 +41,7 @@ def funkce2():
 
 
 
-# y=1
+y=1
 def funkce3():
     global y   #použij globální proměnnou y uvnitř funkce,
     y=100     #pokud již existovala, budeme pracovat s ní     
